@@ -1,5 +1,5 @@
 import React from "react";
-import Questions from "./components/Questions";
+import Faq from "./components/Faq";
 
 const questions = [
   {
@@ -22,7 +22,7 @@ const questions = [
 function App() {
   return (
     <div className="App">
-      <Questions questions={questions} />
+      <Faq questions={questions} />
     </div>
   );
 }

@@ -4,11 +4,13 @@ import styles from './Questions.module.css';
 function Questions(props){
 
     return(
-        <ul>
-            {props.questions.map((question) => 
-            <li key={question.id} >{question.title}</li>
-            )}
-        </ul>
+        <li>
+            <div>
+                <h3>{props.qs}</h3>
+                <button>+</button>
+            </div>
+            <p>{props.info}</p>
+        </li>
     );
 };
 
