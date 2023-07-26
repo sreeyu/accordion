@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: rgb(21, 20, 20);
+    color: rgb(235, 230, 230);
+}
