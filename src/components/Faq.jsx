@@ -1,4 +1,5 @@
 import React from "react";
+import styles from './Faq.module.css'
 import Questions from "./Questions";
 
 function Faq(props){
@@ -7,7 +8,7 @@ function Faq(props){
     <Questions key={question.id} qs={question.title} info={question.info} />)
 
     return(
-        <ul>
+        <ul className={styles.container} >
             {content}
         </ul>
     );
